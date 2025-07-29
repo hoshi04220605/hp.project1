@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>hoshi_portfoliosite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/price.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="navibar">
+      <div class="logo">
+          <a href="index.html"><img id="logo" src="img/logo_blue.png" alt="Logo"></a>
+      </div>
+      <div class="navi-page">
+        <a href="function.html">機能</a>
+        <a href="price.html">料金</a>
+      </div>
+      <div class="navi-form">
+        <a href="document-form.html" class="navi-docform">お役立ち資料</a>
+        <a href="contact-form.html" class="navi-contact">お問い合わせ</a>
+      </div>
+    </div>
+  </header>
+  <!-- ====mobile==== -->
+  <header class="header-mobile">
+    <div class="navibar-mobile">
+      <div class="logo-mobile">
+        <a href="index.html"><img id="logo" src="img/logo_blue.png" alt="Logo"></a>
+      </div>
+      <div class="navi-form">
+        <a href="contact-form.html" class="navi-contact">お問い合わせ</a>
+      </div>
+      <!-- ====hamburger==== -->
+      <button class="hamburger-overlay" aria-label="メニュー" aria-controls="overlay-menu" aria-expanded="false">
+        <span class="hamburger-overlay__line"></span>
+        <span class="hamburger-overlay__line"></span>
+        <span class="hamburger-overlay__line"></span>
+        <span class="menu">menu</span>
+      </button>
+      <!-- ====menu==== -->
+      <nav id="overlay-menu" class="nav-overlay" aria-hidden="true">
+        <div class="nav-overlay__content">
+          <ul class="nav-overlay__list">
+            <li class="nav-overlay__item"><a href="#" class="nav-overlay__link">TOP</a></li>
+            <li class="nav-overlay__item"><a href="#" class="nav-overlay__link">料金</a></li>
+            <li class="nav-overlay__item"><a href="#" class="nav-overlay__link">機能</a></li>
+            <li class="nav-overlay__item"><a href="#" class="nav-overlay__link">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero -->
+  <div class="hero-container">
+    <section class="hero" id="hero">
+      <div class="hero-title">
+        <h1>料金プラン</h1>
+        <p>人数(ライセンス)に合わせて選べる料金プランをご紹介します</p>
+        <p class="hero-mobile-p">人数(ライセンス)に合わせて<br>選べる料金プランをご紹介します</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- plan -->
+  <div class="plan-container">
+   <section class="plan" id="plan">
+     <div class="plan-title">
+       <h1>料金プランのご紹介</h1>
+     </div>
+     <div class="plan-body">
+       <div class="plan-box">
+         <div class="plan-text">
+           <h2>月額プラン</h2>
+           <p>ライセンス数 × 12ヶ月</p>
+         </div>
+         <a class="primary-btn" href="#table">詳細はこちら</a>
+       </div>
+       <div class="plan-box">
+         <div class="plan-text">
+           <h2>3年更新プラン</h2>
+           <p>ライセンス数 × 36ヶ月<p>
+           <span class="large">+</span>
+           <p>運用支援1回／年</p>
+         </div>
+         <a class="primary-btn" href="#support">詳細はこちら</a>     
+       </div>
+     </div> 
+    </section>
+  </div>
+
+  <!-- table -->
+   <div class="table-container">
+    <section class="table" id="table">
+      <div class="table-title">
+        <h1>ライセンス料金表</h1>
+        <p>ライセンス（＝人数）×12か月が料金となります</p>
+      </div>
+      <div class="table-body">
+        <img src="img/lic.png">
+        <p>※200ライセンス以上の方は個別でお見積りいたします。</p>
+      </div>
+      <div class="table-body-mobile">
+        <img src="img/lic_mobile.png">
+        <p>※Lic＝ライセンス</p>
+        <p>200ライセンス以上の方は個別でお見積りいたします。</p>
+      </div>
+      </div>
+    </section>
+   </div>
+  <!-- Support -->
+  <div class="support-container">
+    <section class="support" id="support">
+      <div class="support-title">
+        <h1>運用支援</h1>
+        <p>3年更新プランご契約の方のみの特典です</p>
+      </div>
+      <div class="support-body">
+        <div class="support-img">
+          <img src="img/total_img.png" alt="解決支援">
+        </div>
+        <div class="support-text">
+          <p class="support-p"">下記の支援を年に1回行い<br>より効果的な運用を実現します。</p>
+          <p class="support-mobile-p">下記の支援を年に1回行い、より効果的な運用を実現します。</p>
+          <div class="points">
+            <p>・現状の運用状況の確認</p>
+            <p>・ヒアリングの上、最適解を提示</p>
+            <p>・その他不明点の解消</p>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- simulation-CTA -->
+  <div class="simulation-container">
+    <section class="simulation" id="simulation">
+      <div class="simulation-body">
+        <div class="simulation-box1">
+          <h2>最適な料金プランをご案内します</h2>
+        </div>
+        <div class="simulation-box2">
+          <h2>料金シミュレーション</h2>
+          <!-- <a class="primary-btn" href="#simulation.form">詳細はこちら</a>      -->
+          <a class="primary-btn" href="simulation-form.html">詳細はこちら<img src="img/arrow_bluewhite.png"></a>
+        </div>        
+      </div>
+      <!-- ====mobile==== -->
+      <div class="simulation-body-mobile">
+        <h2>料金シミュレーション</h2>
+        <h2>最適な料金プランをご案内します</h2>
+        <a class="cta-primary-btn" href="simulation-form.html">詳細はこちら</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- --faq-- -->
+  <div class="faq-container">
+    <div class="faq">
+      <h1>よくある質問</h1>
+      <hr>
+      <div class="faq-body">
+        <div class="faq_actab">
+          <input id="cp_tab1" type="checkbox" name="tabs">
+          <label for="cp_tab1">各プランの詳細な料金を教えてください</label>
+          <div class="faq_actab-content">
+          <hr>
+          <p><a href="price.html">料金ページ</a>にて、詳細をご確認いただけます。
+            <br>また<a href="simulation-form.html">料金シミュレーション</a>にてより詳細なプラン、料金を算出いたします。
+            <br><a href="contact-form.html">お問合せ</a>にて個別算出も可能ですのでお気軽にお問い合わせ下さい。</p>
+          </div>
+        </div>
+        <hr>
+        <div class="faq_actab">
+          <input id="cp_tab2" type="checkbox" name="tabs">
+          <label for="cp_tab2">外部システムとの連携はできますか？</label>
+          <div class="faq_actab-content">
+          <hr>
+          <p>可能です。API連携にて外部出力、CSVにて外部へ必要な情報の出力も可能です。</p>
+          </div>
+        </div>
+        <hr>
+        <div class="faq_actab">
+          <input id="cp_tab3" type="checkbox" name="tabs">
+          <label for="cp_tab3">無料トライアルに期間はありますか？</label>
+          <div class="faq_actab-content">
+          <hr>
+          <p>ございません。</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <!-- contact-form -->
+  <div class="contact-container">
+  <section class="contact" id="contact">     
+    <div class="contact-box">
+      <div class="contact-text">
+        <h2>お気軽にお問い合わせください</h2> 
+        <p>オンラインでのご説明も可能です。<br>お問い合わせフォームからご連絡ください。</p>
+        <a class="contact-btn" href="contact-form.html">お問い合せフォームへ<img src="img/arrow_pinkwhite.png"></a>  
+      </div>
+      <div></div>
+      </div>   
+    </div>
+  </section>
+  </div>
+  <!-- footer -->
+  <footer>  
+    <div class="footer-navibar">
+      <div class="footer-logo">
+        <a href="index.html"><img id="logo" src="img/logo_blue.png" alt=""Logo"></a>
+      </div>
+      <p>&copy; 2023 hoshi_portfoliosite. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- ====mobile==== -->
+  <div class="footer-mobile">
+    <div class="footer-navibar-mobile">
+      <div class="footer-logo-mobile">
+        <a href="index.html"><img id="footer-logo" src="img/logo_blue.png" alt=""Logo"></a>
+      </div>
+      <p>&copy; 2023 hoshi_portfoliosite. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
