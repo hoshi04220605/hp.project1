@@ -562,8 +562,9 @@ h5{
 /* ===ボタンの色変更=== */
 .bigcta-btn:hover,
 .bigcta-docbtn:hover {
-  border: #FFD966 solid 3px;
-  background-color: #faf6eb;
+  /* border: #FFD966 solid 3px; */
+  background-color: #0c5fad;
+  color:#fff;
 }
 
 

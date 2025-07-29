@@ -78,7 +78,7 @@ $(document).ready(function() {
   // =======bigcta-docbtnのホバー時の色変更=======
   $(".bigcta-docbtn").hover(
   function() {
-    $(".bigcta-docbtn img").attr("src", "img/bigcta-btn.png")
+    $(".bigcta-docbtn img").attr("src", "img/arrow-white.png")
   },
   function() {
     $(".bigcta-docbtn img").attr("src", "img/arrow_bluewhite.png")
@@ -89,7 +89,7 @@ $(document).ready(function() {
   $(".bigcta-btn").hover(
     function() {
             // hover時の画像変更
-      $(".bigcta-btn img").attr("src", "img/bigcta-btn.png")
+      $(".bigcta-btn img").attr("src", "img/arrow-white.png")
     }, 
     function() {
       // hover解除時の元の画像に戻す
